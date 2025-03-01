@@ -1,4 +1,4 @@
-def pesquisa_binaria (lista, item):
+def busca_binaria (lista, item):
     baixo = 0
     alto = len(lista) - 1
     
@@ -16,5 +16,5 @@ def pesquisa_binaria (lista, item):
 
 minha_lista = [1, 3, 5, 7, 9]
 
-print(pesquisa_binaria(minha_lista, 3))
-print(pesquisa_binaria(minha_lista, -1))
+print(busca_binaria(minha_lista, 3))
+print(busca_binaria(minha_lista, -1))
